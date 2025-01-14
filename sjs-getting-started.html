@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>SJS Getting Started</title>
+    <!-- SJS CSS and JS Depenencies -->
+    <link href="sjs dependencies/gc.spread.sheets.excel2013lightGray.18.0.1.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="sjs dependencies/gc.spread.sheets.all.18.0.1.min.js"></script>
+
+    <script type="text/javascript">
+        window.onload = function () {
+        // Initalize the SJS workbook
+        var workbook = new GC.Spread.Sheets.Workbook(document.getElementById("ss"));
+        }
+    </script>
+</head>
+
+<body>
+        <h2>Getting Started with SpreadJS</h2>
+        <p>Check out this JavaScript spreadsheet's <a href="https://developer.mescius.com/spreadjs/demos/quickstart/quickstart-js">Quick Start Guide</a>.</p>
+        <!-- SJS host element -->
+        <div id="ss" style="height:700px; width:70%; float:left;"></div>
+</body>
+</html>
